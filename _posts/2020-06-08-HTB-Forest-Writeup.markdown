@@ -118,7 +118,7 @@ We can use this to logon using Evil-WinRM with the -H flag and grab `root.txt`
 
 ## Rooted!
 
-If you enjoyed my write up or found it useful check you my htb profile linked below
+If you enjoyed my write up or found it useful check out my htb profile linked below:
 
 [![HTB](http://www.hackthebox.eu/badge/image/210952.png)](https://www.hackthebox.eu/home/users/profile/210952)
 
