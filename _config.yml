@@ -34,6 +34,9 @@ plugins:
   - jekyll-include-cache
   - jekyll-seo-tag
 
+include:
+ - _pages
+
 author:
   name: "71xn"
   avatar: "/profile.jpg"
@@ -55,6 +58,7 @@ author:
     - label: "Twitch"
       icon: "fab fa-fw fa-twitch"
       url: "https://twitch.tv/71xn"  
+
 defaults:
   # _posts
   - scope:
@@ -66,6 +70,7 @@ defaults:
       toc: true
       toc_label: "Contents"
       toc_icon: "fab fa-fw fa-th-list"
+
 
 
 # Exclude from processing.
