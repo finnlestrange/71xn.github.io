@@ -18,21 +18,54 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: "71xn@github.io:~#"
+email: f1nnl3strange@protonmail.ch
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Cybersec blog with HackTheBox and CTF Writeups
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: 71xxn
+github_username:  71xn
 
 # Build settings
-remote_theme: stackbithq/stackbit-theme-fresh
+remote_theme: "mmistakes/minimal-mistakes@4.19.3"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "default", "dirt", "neon", "mint", "plum" "sunrise"
 plugins:
-  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+author:
+  name: "71xn"
+  avatar: "/profile.jpg"
+  bio: "Cybersec Blog and CTF Writeups" # Note: Markdown is allowed
+  location: "UK"
+  links:
+    - label: "HackTheBox"
+      icon: "fas fa-fw fa-cube"
+      url: "https://www.hackthebox.eu/home/users/profile/210952"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/71xxn"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/71xn"
+    - label: "Reddit"
+      icon: "fab fa-fw fa-reddit"
+      url: "https://www.reddit.com/user/f145689"
+
+  
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      toc_label: "Contents"
+      toc_icon: "fab fa-fw fa-th-list"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
