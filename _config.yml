@@ -43,17 +43,18 @@ author:
     - label: "HackTheBox"
       icon: "fas fa-fw fa-cube"
       url: "https://www.hackthebox.eu/home/users/profile/210952"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/71xxn"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/71xn"
-    - label: "Reddit"
-      icon: "fab fa-fw fa-reddit"
-      url: "https://www.reddit.com/user/f145689"
-
-  
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/71xxn"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://www.discordapp.com/users/265520638041653248"
+    - label: "Twitch"
+      icon: "fab fa-fw fa-twitch"
+      url: "https://twitch.tv/71xn"  
 defaults:
   # _posts
   - scope:
