@@ -2,8 +2,8 @@
 main:
   - title: "Home"
     url: /
-  - title: "Support Me"
-    url: /support/
+  - title: "Upcoming Posts"
+    url: /upcoming/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
