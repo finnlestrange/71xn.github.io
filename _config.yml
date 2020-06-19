@@ -27,6 +27,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 71xxn
 github_username:  71xn
 
+highlighter: rouge
+
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.19.3"
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "default", "dirt", "neon", "mint", "plum" "sunrise"
