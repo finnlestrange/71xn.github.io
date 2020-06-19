@@ -3,6 +3,7 @@ layout: single
 title:  "HTB - Bashed Writeup - 10.10.10.68"
 date:   2020-06-02 14:45:23 +0100
 categories: hackthebox
+excerpt: This is my writeup of the hackthebox.eu machine Bashed
 ---
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/6p348hw5z1adbqvs7fmt.png)
 

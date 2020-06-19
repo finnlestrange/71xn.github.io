@@ -3,6 +3,7 @@ layout: single
 title:  "HTB - Active Writeup - 10.10.10.100"
 date:   2020-06-16 16:49:23 +0100
 categories: hackthebox
+excerpt: My walkthrough / writeup of the HTB AD machine Active.
 ---
 ![HTB](/images/active/2020-06-16_16-56.png)
 

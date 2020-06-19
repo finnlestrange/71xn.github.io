@@ -68,6 +68,8 @@ defaults:
       layout: single
       author_profile: true
       toc: true
+      share: true
+      related: true
       toc_label: "Contents"
       toc_icon: "fab fa-fw fa-th-list"
 
