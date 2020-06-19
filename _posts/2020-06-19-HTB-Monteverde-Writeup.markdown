@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "HTB - Monteverde Writeup - 10.10.10.172"
-date:   2020-06-16 16:49:23 +0100
+date:   2020-06-19 16:49:23 +0100
 categories: hackthebox
 excerpt: My walkthrough / writeup of the HTB AD machine Monteverde.
 ---

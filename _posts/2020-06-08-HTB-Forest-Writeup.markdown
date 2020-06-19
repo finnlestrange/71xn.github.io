@@ -3,7 +3,7 @@ layout: single
 title:  "HTB - Forest Writeup - 10.10.10.161"
 date:   2020-06-08 14:45:23 +0100
 categories: hackthebox
-excerpt: My wreiteup of the Hackthebox machine Forest
+excerpt: My writeup of the Hackthebox machine Forest
 ---
 
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/2qlvus10kpyovinvrdjj.png)
