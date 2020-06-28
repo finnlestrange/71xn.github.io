@@ -3,7 +3,7 @@ layout: single
 title:  "DSInternals Overview"
 date:   2020-06-27 17:06:23 +0100
 categories: windows
-excerpt: This is an overview of how to install configure and use dsinternals for managing or attacking an AD environment
+excerpt: This is an overview of how to install, configure and use dsinternals for managing or attacking an AD environment
 ---
 
 ![logo](/images\dsinternals\DSInternals.png)
