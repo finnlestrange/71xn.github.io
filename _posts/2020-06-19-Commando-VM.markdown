@@ -54,7 +54,7 @@ Pros:
 3. You can customize what package are installed by editing the `profile.json` file.
 
 Cons:
-1. The installer take so damn long, 7 hours with 60+ Mbps internet, this is mostly caused by slow mirrors of package you dont need like GIMP and Adobe PDF Reader.
+1. The installer take so damn long, 7 hours with 60+ Mbps internet, this is mostly caused by slow mirrors of packages you dont necessarily need like GIMP and Adobe PDF Reader.
 
 
 ## What I have changed since install

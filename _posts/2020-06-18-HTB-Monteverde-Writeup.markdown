@@ -14,7 +14,7 @@ Monteverde is a 30 point medium rated machine on hackthebox, that involves using
 ## 1. Recon 
 To start this box off we will do an nmap scan of the target machine, 10.10.10.172  `nmap -sC -sV -oA nmap/monteverde 10.10.10.172` 
 ### Nmap Scan Results
-```
+{% highlight bash linenos %}
 Nmap scan report for 10.10.10.172
 Host is up (0.061s latency).
 Not shown: 989 filtered ports
@@ -48,7 +48,8 @@ Host script results:
 | smb2-time: 
 |   date: 2020-01-24T18:38:12
 |_  start_date: N/A
-```
+{% endhighlight %}
+
 Some ports of note here are:
 1. RPC - Maybe we can get null authentication 
 2. SMB - Maybe some useful files
