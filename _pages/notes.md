@@ -12,6 +12,9 @@ toc_icon: "fab fa-fw fa-th-list"
 
 This is a collection of commands and cheatsheets that I use on a regular basis, the original locations as to where these commands came from will be linked along side the commands. Again, these are not my creations, this is just a note of tools and commands that I have frequently used and that I think are useful. 
 
+## Bash Prompt
+[Here is a copy of my bash prompt](/bashrc)
+
 ## Shells
 ### Reverse Shells
 

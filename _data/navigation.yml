@@ -2,10 +2,11 @@
 main:
   - title: "Home"
     url: /
+  - title: "Notes and Cheatsheets"
+    url: /notes/   
   - title: "Upcoming Posts"
     url: /upcoming/
-  - title: "Notes and Cheatsheets"
-    url: /notes/    
+ 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
