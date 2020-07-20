@@ -2,9 +2,9 @@
 main:
   - title: "Home"
     url: /
-  - title: "Notes and Cheatsheets"
+  - title: "Notes"
     url: /notes/   
-  - title: "Upcoming Posts"
+  - title: "Upcoming"
     url: /upcoming/
  
   # - title: "About"
