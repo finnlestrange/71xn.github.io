@@ -431,6 +431,10 @@ gc \users\administrator\desktop\root.txt
 
 ![flags](/images/sizzle/flags.gif)
 
+## Pwned
+
+![pwned](/images/sizzle/pwned.png)
+
 ## Respect
 If you enjoyed my write up or found it useful consider +repping my htb profile linked below:
 
