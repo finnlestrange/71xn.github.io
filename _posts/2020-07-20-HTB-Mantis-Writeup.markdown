@@ -139,7 +139,12 @@ Bingo, we have credentials, `james:J@m3s_P@ssW0rd!`
 
 To root this machine we need to use the impacket script `goldenPac.py` and the Python Kerberos Exploitation Kit's `ms14-068.py` script. This script will get the PAC (Privilege Attribute Certificate) structure of the specified target user just having a normal authenticated user credentials. This means we are able to get a shell as `SYSTEM` with normal user credentials and a user generated kerberos ticket, this exploit is explained here, [MS14-068](https://docs.microsoft.com/en-us/security-updates/securitybulletins/2014/ms14-068).
 
-Firstly, make sure you have impacket installed with, `pip3 install impacket` 
+Firstly, make sure you have impacket installed with: 
+
+{% highlight bash linenos %}
+pip3 install impacket 
+{% endhighlight %}
+
 
 ### Getting James's SID
 
