@@ -13,5 +13,5 @@ title: Upcoming Posts
 6. ~~Finish all HTB AD machines, only Mantis to go~~
  - ![ad-done](https://i.imgur.com/jyogrzX.png)
  - All AD Machines Done
-7. Mabye some linux machines, ones that I have enjoyed, Mirai, Valentine, Traverxec etc.
+7. Mabye some more easy and medium machines, ~~Bastard~~ Mirai, Valentine, Traverxec etc.
 8. An Endgame Walkthrough, probably P.O.O
