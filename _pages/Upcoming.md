@@ -9,9 +9,9 @@ title: Upcoming Posts
 2. ~~Overview of Commando VM~~
 3. ~~Intro to some AD enum tools like Powerview and DSInternals~~
 4. ~~Walkthrough of Shocker~~
-5. ~~Some more windows boxes, Nest, Sizzle~~
+5. ~~Some more windows boxes, Nest, Sizzle, Bastard~~
 6. ~~Finish all HTB AD machines, only Mantis to go~~
  - ![ad-done](https://i.imgur.com/jyogrzX.png)
  - All AD Machines Done
-7. Mabye some more easy and medium machines, ~~Bastard~~ Mirai, Valentine, Traverxec etc.
+7. Walkthrough of exploiting all the vulnerabilities in [Metasploitable 3](https://github.com/rapid7/metasploitable3)
 8. An Endgame Walkthrough, probably P.O.O
