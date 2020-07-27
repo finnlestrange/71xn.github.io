@@ -2,10 +2,13 @@
 main:
   - title: "Home"
     url: /
+  - title: "Writeups"
+    url: /writeups/
   - title: "Notes"
     url: /notes/   
   - title: "Upcoming"
     url: /upcoming/
+
  
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

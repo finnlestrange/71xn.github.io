@@ -2,7 +2,7 @@
 layout: single
 title:  "HTB - Reel Writeup - 10.10.10.77"
 date:   2020-07-19 17:49:23 +0100
-categories: hackthebox, windows
+categories: hackthebox
 excerpt: My walkthrough / writeup of the HackTheBox Active Directory machine Reel.
 ---
 ![sizzle](/images/reel/htb.png)

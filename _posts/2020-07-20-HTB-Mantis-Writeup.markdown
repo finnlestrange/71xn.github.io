@@ -2,7 +2,7 @@
 layout: single
 title:  "HTB - Mantis Writeup - 10.10.10.52"
 date:   2020-07-21 08:20:23 +0100
-categories: hackthebox, windows
+categories: hackthebox
 excerpt: My writeup of the HackTheBox AD machine Mantis.
 ---
 ![htb](/images/mantis/htb.png)

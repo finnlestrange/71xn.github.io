@@ -2,7 +2,7 @@
 layout: single
 title:  "HTB - Sizzle Writeup - 10.10.10.103"
 date:   2020-07-20 08:49:23 +0100
-categories: hackthebox, windows
+categories: hackthebox
 excerpt: My walkthrough / writeup of the HTB Active Directory machine Sizzle.
 ---
 ![sizzle](/images/sizzle/htb.png)

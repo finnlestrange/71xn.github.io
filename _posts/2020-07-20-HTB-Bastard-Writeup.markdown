@@ -2,7 +2,7 @@
 layout: single
 title:  "HTB - Bastard Writeup - 10.10.10.9"
 date:   2020-07-22 08:49:23 +0100
-categories: hackthebox, windows
+categories: hackthebox
 excerpt: My walkthrough of the HTB Windows Server machine Bastard.
 ---
 ![bastard](/images/bastard/htb.png)

