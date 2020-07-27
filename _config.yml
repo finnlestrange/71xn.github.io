@@ -43,7 +43,7 @@ author:
   name: "71xn"
   avatar: "/profile.jpg"
   bio: "Cybersec Blog and CTF Writeups" # Note: Markdown is allowed
-  location: "UK"
+  location: "United Kingdom"
   links:
     - label: "HackTheBox"
       icon: "fas fa-fw fa-cube"

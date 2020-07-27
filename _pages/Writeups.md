@@ -9,6 +9,9 @@ toc_icon: "fab fa-fw fa-th-list"
 ---
 
 ## HackTheBox
+
+![](https://www.hackthebox.eu/images/logo600.png)
+
 ### Active Directory
 [Forest](/hackthebox/2020/06/08/HTB-Forest-Writeup.html)
 
@@ -35,6 +38,35 @@ toc_icon: "fab fa-fw fa-th-list"
 
 ## Metasploitable 
 
+![](https://www.rapid7.com/includes/img/Rapid7_logo.svg)
+
+### Metasploitable 2
+
+Coming Soon
+
+### Metasploitable 3
 [Metasploitable 3 - CVE-2015-8249](/windows/2020/07/25/Metasploitable-3-Walkthrough.html#exploiting-manage-engine---cve-2015-8249)
 
 [Metasploitable 3 - EternalBlue](/windows/2020/07/25/Metasploitable-3-Walkthrough.html#exploiting-eternalblue-ms17-010)
+
+
+## VulnHub
+
+![](https://www.vulnhub.com/static/img/logo.png)
+
+### Beginner VM's
+[OSCP Prep VM](/) - Coming August 7th
+
+
+## Misc CTF
+
+Coming Soon
+
+
+## Windows Posts
+
+[Commando VM Setup and Overview](/windows/2020/06/19/Commando-VM.html)
+
+[DSInternals Overview](/windows/2020/06/27/DSInternals-Overview.html)
+
+[Active Directory Enumeration with PowerView](/windows/2020/06/28/AD-Enumeration-with-PowerView.html)
