@@ -31,3 +31,10 @@ toc_icon: "fab fa-fw fa-th-list"
 [Bashed](/hackthebox/2020/06/02/HTB-Bashed-Writeup.html)
 
 [Shocker](/hackthebox/2020/07/04/HTB-Shocker-Writeup.html)
+
+
+## Metasploitable 
+
+[Metasploitable 3 - CVE-2015-8249](/windows/2020/07/25/Metasploitable-3-Walkthrough.html#exploiting-manage-engine---cve-2015-8249)
+
+[Metasploitable 3 - EternalBlue](/windows/2020/07/25/Metasploitable-3-Walkthrough.html#exploiting-eternalblue-ms17-010)
