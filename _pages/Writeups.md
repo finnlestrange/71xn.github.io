@@ -55,6 +55,8 @@ Coming Soon
 ![](https://www.vulnhub.com/static/img/logo.png)
 
 ### Beginner VM's
+[Brainpan Buffer Overflow PDF Walkthrough](https://github.com/71xn/71xn.github.io/blob/master/pdf/Buffer%20Overflow%20Guide.pdf)
+
 [OSCP Prep VM](/) - Coming August 7th
 
 
