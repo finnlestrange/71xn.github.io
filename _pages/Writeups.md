@@ -26,6 +26,8 @@ toc_icon: "fab fa-fw fa-th-list"
 [Mantis](/hackthebox/2020/07/21/HTB-Mantis-Writeup.html)
 
 ### Windows
+[Tally](/hackthebox/2020/08/07/HTB-Tally-Writeup.html)
+
 [Bastard](/hackthebox/2020/07/22/HTB-Bastard-Writeup.html)
 
 [Bounty](/hackthebox/2020/07/27/HTB-Bounty-Writeup.html)
