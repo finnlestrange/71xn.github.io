@@ -43,49 +43,55 @@ shopt -s checkwinsize
 
 # set variable identifying the chroot you work in (used in the prompt below)
 if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
-    debian_chroot=$(cat /etc/debian_chroot)
-fi
-
-# set a fancy prompt (non-color, unless we know we "want" color)
-case "$TERM" in
-    xterm-color) color_prompt=yes;;
-esac
-
-# uncomment for a colored prompt, if the terminal has the capability; turned
-# off by default to not distract the user: the focus in a terminal window
-# should be on the output of commands, not on the prompt
-force_color_prompt=yes
-
-if [ -n "$force_color_prompt" ]; then
-    if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-	# We have color support; assume it's compliant with Ecma-48
-	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-	# a case would tend to support setf rather than setaf.)
-	color_prompt=yes
+    debian_chroot=$(cat /etc/debian_chroot)                                                                        
+fi                                                                                                                 
+                                                                                                                   
+# set a fancy prompt (non-color, unless we know we "want" color)                                                   
+case "$TERM" in                                                                                                    
+    xterm-color) color_prompt=yes;;                                                                                
+esac                                                                                                               
+                                                                                                                   
+# uncomment for a colored prompt, if the terminal has the capability; turned                                       
+# off by default to not distract the user: the focus in a terminal window                                          
+# should be on the output of commands, not on the prompt                                                           
+force_color_prompt=yes                                                                                             
+                                                                                                                   
+if [ -n "$force_color_prompt" ]; then                                                                              
+    if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then                                                      
+        # We have color support; assume it's compliant with Ecma-48                                                
+        # (ISO/IEC-6429). (Lack of such support is extremely rare, and such                                        
+        # a case would tend to support setf rather than setaf.)                                                    
+        color_prompt=yes
     else
-	color_prompt=
+        color_prompt=
     fi
 fi
 
+if [ -r /sys/class/net/tun0/operstate ]; then
+    IP=$(ifconfig tun0 | grep "inet " | cut -d " " -f 10)
+else
+    IP=$(ifconfig eth0 | grep "inet " | cut -d " " -f 10)
+fi
+
 if [ "$color_prompt" = yes ]; then
-    PS1="\[\033[0;31m\]\342\224\214\342\224\200\$([[ \$? != 0 ]] && echo \"[\[\033[0;31m\]\342\234\227\[\033[0;37m\]]\342\224\200\")[$(if [[ ${EUID} == 1 ]]; then echo '\[\033[01;31m\]root\[\033[01;33m\]☺\[\033[01;96m\]\h'; else echo '\[\033[0;39m\]\u\[\033[01;33m\]☺\[\033[01;96m\]\h'; fi)\[\033[0;31m\]]\342\224\200[\[\033[0;32m\]\w\[\033[0;31m\]]\n\[\033[0;31m\]\342\224\224\342\224\200\342\224\200\342\225\274 \[\033[0m\]\[\e[01;33m\]\\$\[\e[0m\]"
+    PS1="\[\033[1;32m\]\342\224\214\342\224\200$([[ $? != 0 ]] && echo "[\[\033[0;31m\]\342\234\227\[\033[0;37m\]]\342\224\200")[\[\033[1;97m\]\u\[\033[01;32m\]@\[\033[1;94m\]\h\[\033[01;33m\]\[\033[1;32m\]]\342\224\200\[\033[1;32m\][\[\033[1;97m\]"$IP"\[\033[1;32m\]]\342\224\200[\[\033[1;94m\]\w\[\033[1;32m\]]\n\[\033[1;32m\]\342\224\224\342\224\200\342\224\200\342\225\274 \[\033[0m\]\[\e[01;33m\]\$\[\e[0m\] "
 else
     PS1='┌──[\u@\h]─[\w]\n└──╼ \$ '
 fi
 
 # Set 'man' colors
 if [ "$color_prompt" = yes ]; then
-	man() {
-	env \
-	LESS_TERMCAP_mb=$'\e[01;31m' \
-	LESS_TERMCAP_md=$'\e[01;31m' \
-	LESS_TERMCAP_me=$'\e[0m' \
-	LESS_TERMCAP_se=$'\e[0m' \
-	LESS_TERMCAP_so=$'\e[01;44;33m' \
-	LESS_TERMCAP_ue=$'\e[0m' \
-	LESS_TERMCAP_us=$'\e[01;32m' \
-	man "$@"
-	}
+        man() {
+        env \
+        LESS_TERMCAP_mb=$'\e[01;31m' \
+        LESS_TERMCAP_md=$'\e[01;31m' \
+        LESS_TERMCAP_me=$'\e[0m' \
+        LESS_TERMCAP_se=$'\e[0m' \
+        LESS_TERMCAP_so=$'\e[01;44;33m' \
+        LESS_TERMCAP_ue=$'\e[0m' \
+        LESS_TERMCAP_us=$'\e[01;32m' \
+        man "$@"
+        }
 fi
 
 unset color_prompt force_color_prompt
@@ -95,12 +101,12 @@ case "$TERM" in
 xterm*|rxvt*)
 
 if [ -r /sys/class/net/tun0/operstate ]; then
-	IP=$(ifconfig tun0 | grep "inet " | cut -d " " -f 10)
+        IP=$(ifconfig tun0 | grep "inet " | cut -d " " -f 10)
 else
-	IP=$(ifconfig eth0 | grep "inet " | cut -d " " -f 10)
+        IP=$(ifconfig eth0 | grep "inet " | cut -d " " -f 10)
 fi
 
-PS1="\[\033[1;32m\]\342\224\214\342\224\200$([[ $? != 0 ]] && echo "[\[\033[0;31m\]\342\234\227\[\033[0;37m\]]\342\224\200")[\[\033[1;97m\]\u\[\033[01;32m\]@\[\033[1;94m\]\h\[\033[01;33m\]\[\033[1;32m\]]\342\224\200\[\033[1;32m\][\[\033[1;97m\]"$IP"\[\033[1;32m\]]\342\224\200[\[\033[1;94m\]\w\[\033[1;32m\]]\n\[\033[1;32m\]\342\224\224\342\224\200\342\224\200\342\225\274 \[\033[0m\]\[\e[01;33m\]\$\[\e[0m\]"
+PS1="\[\033[1;32m\]\342\224\214\342\224\200$([[ $? != 0 ]] && echo "[\[\033[0;31m\]\342\234\227\[\033[0;37m\]]\342\224\200")[\[\033[1;97m\]\u\[\033[01;32m\]@\[\033[1;94m\]\h\[\033[01;33m\]\[\033[1;32m\]]\342\224\200\[\033[1;32m\][\[\033[1;97m\]"$IP"\[\033[1;32m\]]\342\224\200[\[\033[1;94m\]\w\[\033[1;32m\]]\n\[\033[1;32m\]\342\224\224\342\224\200\342\224\200\342\225\274 \[\033[0m\]\[\e[01;33m\]\$\[\e[0m\] "
     ;;
 *)
     ;;
@@ -119,12 +125,15 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -lh'
-alias la='ls -lha'
-alias l='ls -CF'
+alias ls='ls --color=auto'
+alias neofetch='neofetch | lolcat'
 alias em='emacs -nw'
 alias dd='dd status=progress'
 alias kill-vpn='sudo killall openvpn'
+alias reload='source ~/.bashrc'
+alias shut='sudo shutdown -h now'
+alias htb-vpn='sudo openvpn /root/htb/71xn.ovpn'
+alias vi='nvim'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -145,6 +154,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+export PATH=/bin/lscript:/bin/lscript:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/root/.local/bin:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 {% endhighlight %}
 
 #### Features 
