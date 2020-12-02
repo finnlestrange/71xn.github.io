@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Advent of Code 2020 Solution Writeups"
-date:   2020-09-18 08:49:23 +0100
+date:   2020-12-02 08:49:23 +0100
 categories: programming
 excerpt: My solutions to the 2020 advent of code
 ---
