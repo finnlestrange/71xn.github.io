@@ -21,7 +21,7 @@
 title: "71xn@github.io:~#"
 email: f1nnl3strange@protonmail.ch
 description: >- # this means to ignore newlines until "baseurl:"
-  Programming and Cybersec Blog with CTF Writeups
+  Programming Blog with CTF Writeups
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 71xxn
@@ -42,7 +42,7 @@ include:
 author:
   name: "71xn"
   avatar: "/profile.jpg"
-  bio: "Cybersec Blog and CTF Writeups" # Note: Markdown is allowed
+  bio: "Programming Blog with CTF Writeups" # Note: Markdown is allowed
   location: "United Kingdom"
   links:
     - label: "HackTheBox"
