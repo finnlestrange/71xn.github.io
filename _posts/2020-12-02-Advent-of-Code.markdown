@@ -12,7 +12,7 @@ excerpt: My solutions to the 2020 advent of code
 
 ### Challenge 1
 
-{ % highlight java linenos % }
+{% highlight java linenos %}
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -58,11 +58,12 @@ public class Day1_1 {
 	}
 }
 
-{ % endhighlight % }
+{% endhighlight %}
 
 ### Challenge 2
 
-{ % highlight java linenos % }
+{% highlight java linenos %}
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -102,14 +103,15 @@ public class Day1_2 {
 	}
 }
 
-{ % endhighlight % }
+{% endhighlight %}
 
 
 ## Day 2
 
 ### Challenge 1
 
-{ % highlight java linenos % }
+{% highlight java linenos %}
+
 import java.util.Scanner;
 import java.util.regex.Pattern; 
 
@@ -156,12 +158,14 @@ public class Day2_1 {
 		scanner.close();
 	}
 }
-{ % endhighlight % }
+
+{% endhighlight %}
 
 
 ### Challenge 2
 
-{ % highlight java linenos % }
+{% highlight java linenos %}
+
 import java.util.Scanner;
 
 public class Day2_2 {
@@ -207,4 +211,4 @@ public class Day2_2 {
 	}
 }
 
-{ % endhighlight % }
+{% endhighlight %}
