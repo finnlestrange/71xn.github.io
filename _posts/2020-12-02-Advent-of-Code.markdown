@@ -212,3 +212,95 @@ public class Day2_2 {
 }
 
 {% endhighlight %}
+
+## Day 3
+
+### Challenge 1
+
+{% highlight java linenos %}
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Day3_1 {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String[][] map = new String[323][1];
+		String temp = "";
+		String line = "";
+		
+		
+		for (int i = 0; i < map.length; i++) {
+			temp = scanner.nextLine();
+			for (int x = 0; x < 300; x++) {
+				line = line + temp;
+			}
+			map[i][0] = line;
+			line = "";
+		}
+		
+		int c = 0;
+		String row = "";
+		char ch = '.';
+		int substringCount = 3;
+		for (int i = 1; i < map.length; i++) {
+			row = map[i][0];
+			ch = row.charAt(substringCount);
+			if (String.valueOf(ch).equals("#")) {
+				c++;
+			}
+			ch = '.';
+			substringCount = substringCount + 3;
+		}
+		
+		System.out.println(c);
+		
+		
+		}
+	
+		
+		
+}
+	
+
+{% endhighlight %}
+
+
+### Challenge 2
+
+{% highlight java linenos %}
+
+import java.util.Scanner;
+
+public class Day3_3 {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String[] map = new String[323];
+		for (int i = 0; i < map.length; i++) {
+			map[i] = scanner.nextLine();
+		}
+		
+		int p = (((pathFind(map, 1,1) * pathFind(map, 3,1)) * pathFind(map, 5,1)) * pathFind(map, 7,1)) * pathFind(map, 1,2);
+		
+		System.out.println("Answer: " + p);
+		
+	}
+	
+	private static int pathFind(String[] map, int x, int y) {
+        int count = 0;
+        int pos = 0;
+        
+        for(int i = 0; i < map.length; i+=y){
+        	if (map[i].charAt(pos) == '#') {
+				count++;
+			}
+        	pos = (pos + x)%map[i].length();
+        }
+        return count;
+	}
+}
+
+
+{% endhighlight %}
