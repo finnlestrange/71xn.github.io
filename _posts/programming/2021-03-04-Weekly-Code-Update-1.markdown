@@ -10,9 +10,11 @@ The ultimate goal is for me to progress in learning software development, so I w
 
 Linked below is a new git repo that will eventually contain a single project per week for the next 6 months. All the code will be written in a mixture of Java and potentially some python or C. This is purely a place to log my progress as this blog has it's focus from ctf's to more programming as hackthebox took out far to much time and the lack of good windows boxes caused me to stop playing. 
 
-[The Code Repo](https://github.com/71xn/programming-projects)
+[The Code Repo](https://github.com/71xn/code)
 
 ## Problem 1 - HackerRank ArrayList
+
+### [GitHub Link](https://github.com/71xn/code/blob/main/HackerRank/HackerRank_ArrayList/src/Solution.java)
 
 ### [Prompt](https://www.hackerrank.com/challenges/java-arraylist/problem)
 
