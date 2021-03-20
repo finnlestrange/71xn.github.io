@@ -21,7 +21,7 @@ Set-PoshPrompt jandedobbeleer
 
 ## Color Scheme
 
-{% highlight javascript linenos %}
+{% highlight json linenos %}
 
 "schemes": [
         {
@@ -51,7 +51,7 @@ Set-PoshPrompt jandedobbeleer
 
 ## Config File
 
-{% highlight javascript %}
+{% highlight json %}
 
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
