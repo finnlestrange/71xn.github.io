@@ -59,7 +59,10 @@ author:
       url: "https://www.discordapp.com/users/265520638041653248"
     - label: "Twitch"
       icon: "fab fa-fw fa-twitch"
-      url: "https://twitch.tv/71xn"  
+      url: "https://twitch.tv/71xn"
+    - label: "Dev"
+      icon: "fab fa-fw fa-dev"
+      url: "https://dev.to/71xn"   
 
 defaults:
   # _posts
