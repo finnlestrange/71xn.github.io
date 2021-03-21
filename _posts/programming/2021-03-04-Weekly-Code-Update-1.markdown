@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Weekly Programming Update - 1"
+title:  "Monthly Programming Update - 1"
 date:   2021-03-04 07:49:23 +0100
 categories: programming
 excerpt: A weekly update of my progress to learning software development
@@ -18,9 +18,9 @@ Linked below is a new git repo that will eventually contain a single project per
 
 ### [Prompt](https://www.hackerrank.com/challenges/java-arraylist/problem)
 
+### My Solution - Java
 
 {% highlight java linenos %}
-
 
 import java.io.*;
 import java.util.*;
@@ -53,10 +53,52 @@ public class Solution {
                 System.out.println("ERROR!");
             }
         }
-
-
     }
 }
+
+
+{% endhighlight %}
+
+## Problem 2 - HackerRank Map
+
+### [Prompt](https://www.hackerrank.com/challenges/phone-book/problem)
+
+### My Solution - Java
+
+{% highlight java linenos %}
+
+import java.util.*;
+import java.io.*;
+
+class Solution{
+	public static void main(String []argh)
+	{
+        HashMap<String, Integer> phonebook = new HashMap<String, Integer>();
+        
+		Scanner in = new Scanner(System.in);
+		int n=in.nextInt();
+		in.nextLine();
+		for(int i=0;i<n;i++)
+		{
+			String name=in.nextLine();
+			int phone=in.nextInt();
+            phonebook.put(name, phone);
+			in.nextLine();
+		}
+		while(in.hasNext())
+		{
+			String s=in.nextLine();
+            
+            try {
+                int num = phonebook.get(s);
+                System.out.println(s+"="+num);
+            } catch (Exception e) {
+                System.out.println("Not found");
+            }
+		}
+	}
+}
+
 
 
 {% endhighlight %}
