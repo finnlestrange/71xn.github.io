@@ -1,8 +1,10 @@
 # main links
 main:
-  - title: "Home"
-    url: /
-  - title: "Writeups"
-    url: /writeups/
-  - title: "Notes"
-    url: /notes/   
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
