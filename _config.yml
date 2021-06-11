@@ -13,22 +13,22 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin2: "dark" # Them switching code here https://github.com/mmistakes/minimal-mistakes/discussions/2033
+minimal_mistakes_skin2: "dark" # Theme switching code here https://github.com/mmistakes/minimal-mistakes/discussions/2033
 
 # Site Settings
 locale: "en-US"
-title: "Finn Lestranges Personal Portfolio"
+title: "Finn's Personal Portfolio"
 title_separator: "-"
-subtitle: # site tagline that appears below site title in masthead
+subtitle: "A Personal Portfolio." # site tagline that appears below site title in masthead
 name: "Finn Lestrange"
 description: "A Personal Portfolio."
-url: "https://71xn.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://finnlestrange.tech" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "71xn/71xn.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+masthead_title: "Finn Lestrange" # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs: true # true, false (default)
 
 # Site Author
 author:
@@ -40,15 +40,21 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:finn.lestrange@gmail.com"
+    - label: "Education Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:flestrange@isa.aberdeen.sch.uk"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/71xn"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://71xn.github.io"
+      url: "https://finnlestrange.tech"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/finnlestrange"
+    - label: "dev.to"
+      icon: "fab fa-fw fa-dev"
+      url: "https://dev.to/71xn"
 
 # Site Footer
 footer:
