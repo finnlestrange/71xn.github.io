@@ -4,7 +4,7 @@ classes: wide
 author_profile: true
 ---
 
-# 👋 Hi. Welcome to my Personal Portfolio
+<h1>👋 Hi. Welcome to my Personal Portfolio</h1>
 
 ## About Me 📌
 
