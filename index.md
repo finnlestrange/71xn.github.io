@@ -8,9 +8,11 @@ author_profile: true
 
 ## About Me 📌
 
-- 🐍 I have experience in Java development, Python for data science, Javascript and some React JS
-- 📠 You can find many of my CTF write-ups and blog posts here - [https://dev.to/71xn](https://dev.to/71xn)
-- 🎒 I currently attend [International School Aberdeen](https://github.com/InternationalSchoolAberdeen)
+- 🍩 I am a 17 year old computer science and mathematics student enrolled in the IBDP
+- 🐍 I have experience in Java development, Python & Javascript
+- ☕ My current work and projects can be found here - [finnlestrange.tech/projects](https://finnlestrange.tech/projects)
+- 📠 You can find some of my CTF write-ups and blog posts here - [https://dev.to/71xn](https://dev.to/71xn)
+- 🎒 I currently attend [The International School Aberdeen](https://github.com/InternationalSchoolAberdeen)
 
 ## 🧠 My Active Projects
 
