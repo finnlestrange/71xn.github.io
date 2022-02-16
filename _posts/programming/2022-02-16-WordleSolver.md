@@ -16,6 +16,10 @@ excerpt: ✏ Java 17 Wordle Solver / Solution Finder
 
 > This code aims to find a list of potential solutions to a wordle problem, based on the known letters and the known letters in relative positions.
 
+### TODO
+
+* Still to do is to add in functionality such that potential solutions are ranked based on their English language frequency to find more optimal solutions.
+
 ## Demo
 
 ![](/images/programming/wordle.png)
