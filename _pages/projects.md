@@ -11,6 +11,8 @@ classes: wide
 
 I have been working on creating a repo of advanced data structures and algorithms in Java. The code can be found [here](https://github.com/71xn/algorithmsDataStructures).
 
+I have recently started working on a small side project, creating a [Wordle](https://www.nytimes.com/games/wordle/index.html) solver. That will eventually be available online. The blog post and source code can be found [here](https://finnlestrange.tech/programming/WordleSolver/).
+
 ## 📚 Learning
 
 ### Project Euler Solutions

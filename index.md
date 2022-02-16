@@ -18,14 +18,12 @@ author_profile: true
 ## 🧠 My Active Projects
 
 - ☕ GitHub Resource of Advanced Data Structures and Algorithms in Java 16 - [Repository Here](https://github.com/71xn/algorithmsDataStructures)
-- 🥧 Raspberry Pi B+ [k3s](https://k3s.io/) Cluster
-
-<div style="text-align: center">
-<img src="assets/images/cluster.jpg" alt="drawing" width="400" />
-</div>
+- 📑 Wordle Solver - [Article and Code Here](https://finnlestrange.tech/programming/WordleSolver/)
 
 ## ✔ Previous Projects (2021)
 
 - 🌍 [FuturistFest Hackathon](https://futuristfest.finnlestrange.tech) - Carbon Footprint Calculator written in `React` and `Python Flask`, submitted for an international hackathon
 
 - 🌲 [#CSFORGOOD Air Pollution Visualization](https://csforgood.finnlestrange.tech/) - `React.js` based air pollution visualization app
+
+- 🥧 Raspberry Pi B+ [k3s](https://k3s.io/) Cluster
