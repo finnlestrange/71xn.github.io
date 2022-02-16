@@ -27,7 +27,6 @@ excerpt: ✏ Java 17 Wordle Solver / Solution Finder
 ## Code
 
 ```java
-
 package tech.finnlestrange;
 
 import java.io.BufferedReader;
@@ -74,10 +73,12 @@ public class Solution {
     }
 
 
-    private List<String> optimizeLikelyWord(String known, Map<Integer, String> knownInPos) {
+    private List<String> optimizeLikelyWord(String known, String not, Map<Integer, String> knownInPos) {
 
         /*
         * known is a string that has all letters known but not in position
+        * not is a string that has all the letters known to not be in the word
+        * knownInPos stores the position of known letters if user chooses to add them
         * */
 
         readWords("words.txt");
@@ -91,6 +92,17 @@ public class Solution {
                 potentialWords.add(word);
             }
         }
+
+        // removing words that contain characters known not to be in the word
+        List<String> temp = new LinkedList<>();
+        temp.addAll(potentialWords);
+        for (String word : temp) {
+            for (char c : not.toCharArray()) {
+                String letter = "" + c;
+                if (word.contains(letter)) potentialWords.remove(word);
+            }
+        }
+
 
         // optimizing for letters in certain positions
         List<String> toRemove = new LinkedList<>();
@@ -117,6 +129,11 @@ public class Solution {
         String known = scanner.nextLine();
         known = known.toLowerCase(Locale.ROOT);
 
+        System.out.print("\nPlease input the letters you know are not in the word with no spaces: ");
+
+        String not = scanner.nextLine();
+        not = not.toLowerCase(Locale.ROOT);
+
         System.out.println("Please input the letters you know the positions of: ");
 
         for (int i = 0; i < 5; i++) {
@@ -126,17 +143,26 @@ public class Solution {
             else knownInPos.put(i, line);
         }
 
-
         for (int i = 0; i < knownInPos.size(); i++) if (knownInPos.get(i) == "" || knownInPos.get(i) == null) knownInPos.remove(i);
 
         System.out.println("\nPotential Solutions: ");
-        List<String> w = optimizeLikelyWord(known, knownInPos);
+        List<String> w = optimizeLikelyWord(known, not, knownInPos);
         System.out.println(w);
 
     }
 
     public Solution() {
-        output();
+        while (true) {
+            output();
+            System.out.println();
+            System.out.println("Would you like to run the code again with new letters: y or n");
+            Scanner s = new Scanner(System.in);
+            String line = s.nextLine().toLowerCase(Locale.ROOT);
+            if (line.contains("y")) continue;
+            else if (line != "y") {
+                break;
+            }
+        }
     }
 
     public static void main(String[] args) {
