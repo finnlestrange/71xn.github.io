@@ -10,6 +10,12 @@ excerpt: ✏ Java 17 Wordle Solver / Solution Finder
 
 ### [GitHub Link](https://github.com/71xn/algorithmsDataStructures/blob/main/wordleSolver/src/tech/finnlestrange/Solution.java)
 
+### [Wordle Link](https://www.nytimes.com/games/wordle/index.html)
+
+## Description
+
+> This code aims to find a list of potential solutions to a wordle problem, based on the known letters and the known letters in relative positions.
+
 ## Demo
 
 ![](/images/programming/wordle.png)
