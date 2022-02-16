@@ -8,7 +8,7 @@ excerpt: ✏ Java 17 Wordle Solver / Solution Finder
 
 # ✏ Java 17 Wordle Solver / Solution Finder
 
-### [Source Code GitHub Link](https://github.com/71xn/algorithmsDataStructures/blob/main/wordleSolver/src/tech/finnlestrange/Solution.java)
+### [Source Code GitHub Link](https://github.com/71xn/algorithmsDataStructures/tree/main/wordleSolver)
 
 ### [Wordle Link](https://www.nytimes.com/games/wordle/index.html)
 
