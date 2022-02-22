@@ -34,7 +34,7 @@ breadcrumbs: false # true, false (default)
 author:
   name: "Finn Lestrange"
   avatar: "/assets/images/profile-me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Student & Software Engineer."
+  bio: "Computer Science Student."
   location: "Aberdeen, UK"
   links:
     - label: "Email"
@@ -52,9 +52,6 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/finnlestrange"
-    - label: "dev.to"
-      icon: "fab fa-fw fa-dev"
-      url: "https://dev.to/71xn"
 
 # Site Footer
 footer:

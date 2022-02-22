@@ -6,8 +6,6 @@ categories: programming
 excerpt: 🧠 Java 17 Solution to the M22 IB CS Case Study
 ---
 
-# 🧠 Java 17 Solution to the M22 IB CS Case Study
-
 Commented code and best solutions [here](https://github.com/71xn/algorithmsDataStructures/tree/main/caseStudyReWritten).
 
 Case study PDF [here](https://computersciencewiki.org/images/c/cb/D_4_comsc_css_2011_1a_e.pdf).

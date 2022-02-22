@@ -3,10 +3,10 @@ layout: single
 title: "Wordle Solver / Solution Finder"
 date: 2022-02-16 08:49:23 +0100
 categories: programming
-excerpt: ✏ Java 17 Wordle Solver / Solution Finder
+excerpt: 📝 Java 17 Wordle Solver / Solution Finder
 ---
 
-# ✏ Java 17 Wordle Solver / Solution Finder
+# 📝 Java 17 Wordle Solver / Solution Finder
 
 ### [Source Code GitHub Link](https://github.com/71xn/algorithmsDataStructures/tree/main/wordleSolver)
 

@@ -2,10 +2,9 @@
 layout: single
 author_profile: true
 permalink: "/projects/"
-classes: wide
 ---
 
-# Personal projects and learning
+<h1>My Current Projects</h1>
 
 ## ☕ Projects
 
