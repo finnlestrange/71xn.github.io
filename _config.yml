@@ -35,7 +35,7 @@ author:
   name: "Finn Lestrange"
   avatar: "/assets/images/profile-me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "Computer Science Student."
-  location: "Aberdeen, UK"
+  location: "Scotland, UK"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -46,9 +46,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/71xn"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://finnlestrange.tech"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/finnlestrange"

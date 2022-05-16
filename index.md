@@ -6,20 +6,23 @@ author_profile: true
 
 <h1>👋 Hi. Welcome to my Personal Portfolio</h1>
 
-## About Me 📌
+## 📌 About Me
 
-- 🍩 Computer science and pure mathematics student
-- 🐍 Experience in Java development, Python & JS
-- ☕ My current work and projects can be found here ➡ [finnlestrange.tech/projects](https://finnlestrange.tech/projects)
+- 🐍 Computer science and pure mathematics student w/ experience in Java development, Python & JS
 - 📠 Blog posts & CTF write-ups ➡ [finnlestrange.tech/blog](/blog)
 - 🎒 [The International School Aberdeen](https://github.com/InternationalSchoolAberdeen)
 
-## 🧠 My Active Projects
+## 🧠 Projects
+
+> No active projects as of right now
+
+### 2022
 
 - ☕ GitHub Resource of Advanced Data Structures and Algorithms in Java 16 - [Repository Here](https://github.com/71xn/algorithmsDataStructures)
+
 - 📑 Wordle Solver - [Article and Code Here](https://finnlestrange.tech/programming/WordleSolver/)
 
-## ✅ Previous Projects (2021)
+### 2021
 
 - 🌍 [FuturistFest Hackathon](https://futuristfest.finnlestrange.tech) - Carbon Footprint Calculator written in `React` and `Python Flask`, submitted for an international hackathon
 
