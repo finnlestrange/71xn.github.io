@@ -4,23 +4,22 @@ classes: wide
 author_profile: true
 ---
 
-<h1>👋 Hi. Welcome to my Personal Portfolio</h1>
+<h1 align="center">👋 Hi. Welcome to my Personal Portfolio</h1>
 
 ## 📌 About Me
 
-- 🐍 Computer science and pure mathematics student w/ experience in Java development, Python & JS
-- 📠 Blog posts & CTF write-ups ➡ [finnlestrange.tech/blog](/blog)
-- 🎒 [The International School Aberdeen](https://github.com/InternationalSchoolAberdeen)
+- Computer science and pure mathematics student w/ experience in Java development, Python & JS
+- Blog posts & CTF write-ups ➡ [finnlestrange.tech/blog](/blog)
 
 ## 🧠 Projects
 
-> No active projects as of right now
+- 🍅 `React.js` Pomodoro Timer - [pomodoro.finnlestrange.tech](https://pomodoro.finnlestrange.tech). Source [71xn/pomodoro](https://github.com/71xn/pomodoro).
 
 ### 2022
 
-- ☕ GitHub Resource of Advanced Data Structures and Algorithms in Java 16 - [Repository Here](https://github.com/71xn/algorithmsDataStructures)
+- GitHub Resource of Advanced Data Structures and Algorithms in Java 16 - [Repository Here](https://github.com/71xn/algorithmsDataStructures)
 
-- 📑 Wordle Solver - [Article and Code Here](https://finnlestrange.tech/programming/WordleSolver/)
+- Wordle Solver - [Article and Code Here](https://finnlestrange.tech/programming/WordleSolver/)
 
 ### 2021
 
