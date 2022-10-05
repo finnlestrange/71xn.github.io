@@ -33,7 +33,7 @@ breadcrumbs: false # true, false (default)
 # Site Author
 author:
   name: "Finn Lestrange"
-  avatar: "/assets/images/profile-me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/profile-me.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "Computer Science Student."
   location: "Glasgow, UK"
   links:
