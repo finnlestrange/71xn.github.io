@@ -59,4 +59,4 @@ management of students and student data.
 <i class="fab fa-ubuntu fa-2x" style="color:#FB8501; display: inline-block; vertical-align: middle;"></i><span style="display: inline-block; vertical-align: middle; font-size: large;"> &nbsp; `Linux` - ️️⭐️⭐️️⭐️️ - I enjoy working on Linux systems and I am comfortable maintaining linux servers.</span> <br/>
 
 
-## CV
+## [CV](https://github.com/71xn/71xn.github.io/raw/master/assets/files/CV.pdf)
