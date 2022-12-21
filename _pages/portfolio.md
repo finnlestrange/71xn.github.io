@@ -46,7 +46,7 @@ management of students and student data.
 
 <i class="fab fa-react fa-2x" style="color:#209EBC; display: inline-block; vertical-align: middle;"></i> <span style="display: inline-block; vertical-align: middle; font-size: large;"> &nbsp; `React` - ️️⭐️⭐️️⭐️️ - I enjoy working on react projects and am slowly becoming more proficient.</span> <br/>
 
-<i class="fab fa-java fa-2x" style="color:#F0941B; display: inline-block; vertical-align: middle;"></i><span style="display: inline-block; vertical-align: middle; font-size: large;"> &nbsp; `Java` - ️️⭐️⭐️️⭐️️ - I have not programmed heavily in Java for a while however I am getting back into it now.</span> <br/>
+<i class="fab fa-java fa-2x" style="color:#F0941B; display: inline-block; vertical-align: middle;"></i><span style="display: inline-block; vertical-align: middle; font-size: large;"> &nbsp; `Java` - ️️⭐️⭐️️⭐️️⭐️ - I am very comfortable programming in Java and working on large projects.</span> <br/>
 
 <i class="fab fa-python fa-2x" style="color:#356A98; display: inline-block; vertical-align: middle;"></i><span style="display: inline-block; vertical-align: middle; font-size: large;"> &nbsp; `Python` - ️️⭐️⭐️️ - I dislike working with Python however I have programmed extensively with it previously.</span> <br/>
 
