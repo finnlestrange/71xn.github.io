@@ -8,13 +8,17 @@ author_profile: true
 
 ## 📌 About Me
 
-- Computer science student @[University of Glasgow](https://gla.ac.uk) with experience in `Java Development`, `Python`, `JS` & `SQL`
+- Computer science student @[University of Glasgow](https://gla.ac.uk) with experience in `Java Development`, `Python`, `JS` & `SQL`. I also am proficient in:
+    - Test Driven Development
+    - Devops & CI/CD
+    - Django & Full Stack Python Development
 - My blog posts & CTF write-ups can be found here: [finnlestrange.tech/blog](/blog)
-- I'm currently working part time as a `Software Developer`. 
+- I'm currently working part time as a `Software Developer` & `Lighting Technician`. 
 
 ## 🧠 Current Projects
->
-> Nothing as of right now . . .
+
+- 🍎 OpenCore `X99 Haswell-E` Hackintosh Project - *More info / config coming soon ...*
+
 
 ### 2022 Projects
 

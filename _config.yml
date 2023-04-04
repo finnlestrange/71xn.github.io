@@ -35,11 +35,14 @@ author:
   name: "Finn Lestrange"
   avatar: "/assets/images/profile-me.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "Computer Science Student."
-  location: "Glasgow, UK"
+  location: "Glasgow & Aberdeen, UK"
   links:
     - label: "University of Glasgow"
       icon: "fas fa-fw fa-user-graduate"
       url: "https://gla.ac.uk"
+    - label: "Academic Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:2737719L@student.gla.ac.uk"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/71xn"
@@ -49,15 +52,9 @@ author:
     - label: "Links"
       icon: "fas fa-fw fa-link"
       url: "https://links.finnlestrange.tech"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/finnlestrange"
     - label: "HackTheBox"
       icon: "fas fa-fw fa-cube"
       url: "https://app.hackthebox.com/profile/210952"
-    - label: "Testing Server"
-      icon: "fas fa-fw fa-server"
-      url: "https://finnlestrange.dev"
 
 social:
   type: Finn Lestrange
